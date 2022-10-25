@@ -1,8 +1,8 @@
-import buttonStyles from './button.module.css'
+import styles from './button.module.scss'
 
 function Button ({children, label="uiBaseButton", variant='base', ...props}) {
     return (
-        <button className={buttonStyles[variant]}>{label}</button>
+        <button className={styles[variant]}>{label}</button>
     )
 }
 

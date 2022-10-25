@@ -6,26 +6,40 @@
     background-color: transparent;
     box-shadow: 0 0 2px 1px #94a3b8;
     font-size: 18px;
-    margin: 1rem;
+    min-width: 200px;
 }
 
 .warning {
-    composes: base;
+    @extend .base;
     background-color: #f59e0b;
     box-shadow: 0 0 2px 1px #f59e0b;
     color:#fffbeb;
 } 
 
 .danger {
-    composes: base;
+    @extend .base;
     background-color: #dc2626;
     box-shadow: 0 0 2px 1px #b91c1c;
     color:#fee2e2;
 }
 
 .primary {
-    composes: base;
-    background-color: #6366f1;
-    box-shadow: 0 0 2px 1px #6366f1;
+    @extend .base;
+    background-color: #0d6efd;
+    box-shadow: 0 0 2px 1px #0d6efd;
     color:#c7d2fe;
+}
+
+.info {
+    @extend .base;
+    background-color: #33b5e5;
+    box-shadow: 0 0 2px 1px #33b5e5;
+    color:#fee2e2;
+}
+
+.success {
+    @extend .base;
+    background-color: #16a34a;
+    box-shadow: 0 0 2px 1px #16a34a;
+    color:#fee2e2;
 }
