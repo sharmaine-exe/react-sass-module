@@ -1,0 +1,8 @@
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+/*# sourceMappingURL=flexrow-module.css.map */
